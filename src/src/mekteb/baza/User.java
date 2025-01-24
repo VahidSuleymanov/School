@@ -1,4 +1,4 @@
-package mekteb;
+package mekteb.baza;
 
 public class User {
     String ad;

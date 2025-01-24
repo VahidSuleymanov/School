@@ -1,6 +1,6 @@
 package mekteb.daxili;
 
-import mekteb.User;
+import mekteb.baza.User;
 
 public class Telebeler extends User {
     int kurs = 3;
@@ -12,6 +12,6 @@ public class Telebeler extends User {
 
     public void info() {
         super.info();
-        System.out.print("Kurs " + this.kurs);
+        System.out.println("Kurs " + this.kurs);
     }
 }

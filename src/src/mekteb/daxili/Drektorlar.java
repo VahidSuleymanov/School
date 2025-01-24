@@ -1,6 +1,6 @@
 package mekteb.daxili;
 
-import mekteb.User;
+import mekteb.baza.User;
 
 public class Drektorlar extends User {
     int telefon_n = 1234567890;
