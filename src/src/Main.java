@@ -4,8 +4,17 @@ import mekteb.daxili.Telebeler;
 
 public class Main {
     public static void main(String[] args){
-        Drektorlar D1 = new Drektorlar("Aqil", "Aliyev", 46, 13, 1234567890);
+        System.out.println("----------------------");
+        System.out.println("DREKTORLAR");
+        System.out.println("----------------------");
+        Drektorlar D1 = new Drektorlar("Sevda", "Elekberova", 50, 13, 1234567890);
+        Drektorlar D2 = new Drektorlar("Aqsin", "Isayev", 52, 13, 1234567890);
+        Drektorlar D3 = new Drektorlar("Tural", "Veliyev", 48, 13, 1234567890);
         D1.info();
+        System.out.println("----------------------");
+        D2.info();
+        System.out.println("----------------------");
+        D3.info();
         System.out.println("----------------------");
         System.out.println("MUELLIMLER");
         System.out.println("----------------------");
